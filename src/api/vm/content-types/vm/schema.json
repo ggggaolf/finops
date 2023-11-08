@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vms",
+  "info": {
+    "singularName": "vm",
+    "pluralName": "vms",
+    "displayName": "vm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "spec": {
+      "type": "enumeration",
+      "enum": [
+        "T1:",
+        "T2:",
+        "T3:"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

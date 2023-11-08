@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "id": 8,
+            "attributes": {
+                "Name": "rds1",
+                "spec": "RDS1:2c4g",
+                "price": 1000,
+                "createdAt": "2023-11-01T03:06:46.709Z",
+                "updatedAt": "2023-11-07T01:48:59.561Z",
+                "publishedAt": "2023-11-07T01:48:59.558Z",
+                "describe": "456",
+                "total": 100,
+                "remaining": 20,
+                "slug": null
+            }
+        },
+        {
+            "id": 9,
+            "attributes": {
+                "Name": "rds2",
+                "spec": "RDS2:4c8g",
+                "price": 2000,
+                "createdAt": "2023-11-01T03:07:33.810Z",
+                "updatedAt": "2023-11-07T01:49:03.981Z",
+                "publishedAt": "2023-11-07T01:49:03.978Z",
+                "describe": "2",
+                "total": 50,
+                "remaining": 10,
+                "slug": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 2
+        }
+    }
+}

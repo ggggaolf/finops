@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_syetems_applicantlists",
+  "info": {
+    "displayName": "applicantlist",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

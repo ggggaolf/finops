@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teledb_resource_details",
+  "info": {
+    "singularName": "teledb-resource-detail",
+    "pluralName": "teledb-resource-details",
+    "displayName": "teledbResourceDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instanceid": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "assign": {
+      "type": "boolean",
+      "required": true
+    },
+    "spec": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::resourcelistforteledb.resourcelistforteledb",
+      "inversedBy": "teledb_resource_details"
+    }
+  }
+}

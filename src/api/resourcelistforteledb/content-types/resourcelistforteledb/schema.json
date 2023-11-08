@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resourcelistforteledbs",
+  "info": {
+    "singularName": "resourcelistforteledb",
+    "pluralName": "resourcelistforteledbs",
+    "displayName": "resourcelistforteledb",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "spec": {
+      "type": "string"
+    },
+    "resource_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::resource-type.resource-type",
+      "inversedBy": "resourcetypes"
+    },
+    "teledb_resource_details": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::teledb-resource-detail.teledb-resource-detail",
+      "mappedBy": "spec"
+    }
+  }
+}
